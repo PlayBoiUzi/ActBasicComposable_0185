@@ -21,3 +21,12 @@ import androidx.compose.ui.unit.sp
 @Composable
 fun HalamanLogin(modifier: Modifier = Modifier) {
     Box(modifier = modifier.fillMaxSize()) {
+        // 1. Gambar Background
+        Image(
+            painter = painterResource(id = R.drawable.kucing), // Sesuaikan nama file gambar background
+            contentDescription = "Background",
+            contentScale = ContentScale.Crop,
+            modifier = Modifier.fillMaxSize()
+        )
+
+
