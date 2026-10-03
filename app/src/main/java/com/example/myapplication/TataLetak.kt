@@ -29,4 +29,11 @@ fun HalamanLogin(modifier: Modifier = Modifier) {
             modifier = Modifier.fillMaxSize()
         )
 
+        // 2. Komponen Teks dan Gambar yang ditumpuk di atas background
+        Column(
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(top = 40.dp),
+            horizontalAlignment = Alignment.CenterHorizontally
+        ) {
 
