@@ -82,3 +82,5 @@ fun HalamanLogin(modifier: Modifier = Modifier) {
                 color = Color.Black
             )
 
+            Spacer(modifier = Modifier.height(40.dp))
+
