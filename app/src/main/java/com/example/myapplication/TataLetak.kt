@@ -37,3 +37,25 @@ fun HalamanLogin(modifier: Modifier = Modifier) {
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
 
+            Text(
+                text = "Login",
+                fontSize = 32.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.Blue
+            )
+
+            Text(
+                text = "Ini adalah halaman login,",
+                fontSize = 16.sp,
+                color = Color.White
+            )
+
+            Spacer(modifier = Modifier.height(40.dp))
+
+            // Logo UMY
+            Image(
+                painter = painterResource(id = R.drawable.logo_umy), // Sesuaikan nama file logo
+                contentDescription = "Logo UMY",
+                modifier = Modifier.size(130.dp)
+            )
+
