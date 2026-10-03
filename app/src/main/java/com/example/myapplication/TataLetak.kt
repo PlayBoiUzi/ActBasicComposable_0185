@@ -68,5 +68,10 @@ fun HalamanLogin(modifier: Modifier = Modifier) {
                 fontWeight = FontWeight.Bold
             )
 
+            Text(
+                text = "M. Dzaky Rafi Al Aziz",
+                fontSize = 20.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.Blue
+            )
 
-}
