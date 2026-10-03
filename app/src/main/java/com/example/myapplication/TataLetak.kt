@@ -59,3 +59,7 @@ fun HalamanLogin(modifier: Modifier = Modifier) {
                 modifier = Modifier.size(130.dp)
             )
 
+            Spacer(modifier = Modifier.height(30.dp))
+
+
+}
