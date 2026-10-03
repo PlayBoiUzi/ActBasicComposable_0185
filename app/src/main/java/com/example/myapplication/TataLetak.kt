@@ -14,3 +14,10 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+
+// Pastikan R.drawable mengarah ke package project, misal: import com.example.mylayout.R
+// Pastikan R.drawable mengarah ke package project, misal: import com.example.mylayout.R
+
+@Composable
+fun HalamanLogin(modifier: Modifier = Modifier) {
+    Box(modifier = modifier.fillMaxSize()) {
