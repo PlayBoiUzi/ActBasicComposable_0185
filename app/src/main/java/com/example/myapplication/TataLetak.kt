@@ -61,5 +61,12 @@ fun HalamanLogin(modifier: Modifier = Modifier) {
 
             Spacer(modifier = Modifier.height(30.dp))
 
+            Text(
+                text = "Nama",
+                fontSize = 16.sp,
+                color = Color.Red,
+                fontWeight = FontWeight.Bold
+            )
+
 
 }
