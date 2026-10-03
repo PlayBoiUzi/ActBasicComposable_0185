@@ -84,3 +84,15 @@ fun HalamanLogin(modifier: Modifier = Modifier) {
 
             Spacer(modifier = Modifier.height(40.dp))
 
+// Gambar Bulat di bawah
+            Image(
+                painter = painterResource(id = R.drawable.ambacik), // Sesuaikan nama file
+                contentDescription = "Foto Kaabah",
+                contentScale = ContentScale.Crop, // Membuat gambar mengisi lingkaran penuh
+                modifier = Modifier
+                    .size(200.dp)
+                    .clip(CircleShape) // Fungsi ini mengubah gambar menjadi bulat
+            )
+        }
+    }
+}
